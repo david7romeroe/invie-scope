@@ -1,0 +1,34 @@
+************* GIT Configuration ****************
+inicializar git: git init
+configurar git username: git config --global user.name "david romero"
+configurar git email: git config --global user.email "david.romeroe@outlook.com"
+ver la configuracion global del git: git config --global --list
+
+************ Git basic ************
+ver versión: git --version
+agregar al staging: git add .
+ver status: git status
+commit: git commit -m "Datos del campo"
+commit junto al anterior: git commit -m "agregado" --ammend
+remover del staging directory: git rm --cached -r .
+remover del staging y eliminarlos: git rm -f archivo
+probar que archivos existen dentro del sistema: git add -n archivo
+
+************ Gig Tag ************
+etiqueta ligera: git tag 0.5
+etiqueta anotada: git tag 0.5 -m "version estable del proyecto"
+listar etiquetas: git tag -l
+etiquetar version: git tag 0.9 sha-1
+eliminar tag: git tag -d 1.0
+renombrar tags: git tag -f -a 0.1 -m "renombrado" sha-1
+
+************ Gig Log ************
+lista de logs: git log
+oneline logs: git log --oneline
+
+*********** Git Diff ************
+comparar con otras versiones: git diff version1 version2
+
+*********** Git Reset ************
+reset soft quita los cambios del commit: git reset --soft sha-1
+reset mixed quita los cambios del commit y los pone en la carpeta working: git reset --mixed sha-1
