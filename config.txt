@@ -1,10 +1,10 @@
-************* GIT Configuration ****************
+************* GIT CONFIGURATION ****************
 inicializar git: git init
 configurar git username: git config --global user.name "david romero"
 configurar git email: git config --global user.email "david.romeroe@outlook.com"
 ver la configuracion global del git: git config --global --list
 
-************ Git basic ************
+************ Git Basic ***********
 ver versión: git --version
 agregar al staging: git add .
 ver status: git status
@@ -29,6 +29,7 @@ oneline logs: git log --oneline
 *********** Git Diff ************
 comparar con otras versiones: git diff version1 version2
 
-*********** Git Reset ************
+*********** Git Reset ***********
 reset soft quita los cambios del commit: git reset --soft sha-1
 reset mixed quita los cambios del commit y los pone en la carpeta working: git reset --mixed sha-1
+reset los cambios del archivo: git reset HEAD <file>
