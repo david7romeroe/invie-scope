@@ -33,3 +33,13 @@ comparar con otras versiones: git diff version1 version2
 reset soft quita los cambios del commit: git reset --soft sha-1
 reset mixed quita los cambios del commit y los pone en la carpeta working: git reset --mixed sha-1
 reset los cambios del archivo: git reset HEAD <file>
+
+*********** Git Branch ***********
+crear ramas: git branch
+listar ramas git branch -l
+eliminar rama: git branch -d o -D rama (eliminación forzada)
+renombrar ramas: git branch -m responsive "nueva"
+
+*********** Git Checkout ***********
+cambiar de ramas: git checkout rama
+crear y cambiar ramas: git checkout: git checkout -b rama 
