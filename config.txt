@@ -47,3 +47,6 @@ crear y cambiar ramas: git checkout: git checkout -b rama
 
 ********** Git Merge ***********
 combinar cambios en ramas: git merge rama
+
+********** Git Rebase ***********
+reestructurar ramas: git rebase
