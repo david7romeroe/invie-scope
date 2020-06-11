@@ -25,6 +25,7 @@ renombrar tags: git tag -f -a 0.1 -m "renombrado" sha-1
 ************ Gig Log ************
 lista de logs: git log
 oneline logs: git log --oneline
+con grafica: git log --graph --oneline
 
 *********** Git Diff ************
 comparar con otras versiones: git diff version1 version2
@@ -42,4 +43,7 @@ renombrar ramas: git branch -m responsive "nueva"
 
 *********** Git Checkout ***********
 cambiar de ramas: git checkout rama
-crear y cambiar ramas: git checkout: git checkout -b rama 
+crear y cambiar ramas: git checkout: git checkout -b rama
+
+********** Git Merge ***********
+combinar cambios en ramas: git merge rama
