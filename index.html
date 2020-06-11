@@ -15,13 +15,21 @@
         vertical-align: top;
     }
 
+    img#responsive {
+        display: none;
+    }
+    
+    @media screen and (max-width: 768px) { 
+        img#responsive {
+            display: block;
+        }
+    }
 </style>
 </head>
 <body>
+    <img src="img/responsive.webp" alt="responsive" id="responsive">
     <img src="img/header.webp" alt="header">
     <img src="img/hero.webp" alt="hero">
     <img src="img/acustica.webp" alt="acustica">
-    <img src="img/clasica.webp" alt="clasica">
-
 </body>
 </html>
