@@ -76,4 +76,5 @@ Segundo paso para hacer el merge: git merge origin/master --allow-unrelated-hist
 
 ********** Push **********
 Enviar al repo remoto: git push origin master
-
+Enviar tags: git push origin master --tags
+Enviar otra rama: git push otra rama
