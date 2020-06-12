@@ -50,3 +50,5 @@ combinar cambios en ramas: git merge rama
 
 ********** Git Rebase ***********
 reestructurar ramas: git rebase
+
+********** Git Stack **********
