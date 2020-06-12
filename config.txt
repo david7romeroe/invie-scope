@@ -58,4 +58,20 @@ listar stash: git stash list
 aplicar cambios: git stash apply
 eliminar cambios: git stash drop
 
-********** Git Stash **********
+********** Git Cherrypick **********
+escoger commit de otro brach: git cherry-pick sha-1
+
+********** Crear llave SSH **********
+ssh-keygen -t rsa -b 4096 -C "dmail.earth@gmail.com"
+copiar llave: pbcopy < ~/.ssh/id_rsa.pub
+
+********** Repositorio remoto **********
+Agregar repositorio remoto: git remote add origin https://github.com/david7romeroe/invie-scope.git
+Verificar repositorio: git remote -v
+Remover repositorio: git remote remove origin
+
+********** Fetch **********
+Obtener datos de repositorio remoto y crear nueva rama: git fetch origin master
+Segundo paso para hacer el merge: git merge origin/master --allow-unrelated-histories
+
+
