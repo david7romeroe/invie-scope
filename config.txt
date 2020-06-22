@@ -73,6 +73,7 @@ Remover repositorio: git remote remove origin
 ********** Fetch **********
 Obtener datos de repositorio remoto y crear nueva rama: git fetch origin master
 Segundo paso para hacer el merge: git merge origin/master --allow-unrelated-histories
+Obtener todo con merge: git pull origin master
 
 ********** Push **********
 Enviar al repo remoto: git push origin master
